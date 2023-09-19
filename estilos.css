@@ -1,0 +1,13 @@
+/* upload div */
+#div_upload{
+/*display: flex;*/
+display: none;
+flex-direction: column;
+align-items: center;
+}
+
+/*plot div */
+#div_plot{
+  width: 100%;
+  height: 400px;
+}
