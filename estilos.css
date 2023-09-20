@@ -2,7 +2,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 24px;
+    font-size: 2vw;
     }
 
 /* div sel  */
@@ -10,33 +10,35 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 400px;
     }
     
 
 /* upload div */
 #div_upload{
-display: flex;
-flex-direction: column;
-align-items: center;
-}
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
 #div_btn_upload{
 	align-self: flex-start;
-}
+    }
 
 /*plot div */
 #div_plot{
-  width: 100%;
-  height: 400px;
-}
+    width: 100%;
+    height: 400px;
+    }
 
 /*logos */
+#div_logos{
+    width: 400px;
+}
 .logo{
 	height: 75px;
 }
 
 #plantel{
-	font-size: 24px;
+	font-size: 2vw;
 	margin: 16px;
 	border-style:hidden;
 	background-color:lightblue;
@@ -51,6 +53,15 @@ input[type="button"]{
     margin: 5px;
 }
 
+#div_title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 h1{
 	font-size: 4vw;
+}
+h2{
+	font-size: 3vw;
 }
