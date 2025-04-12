@@ -28,22 +28,35 @@
 
         <div id='div_main' >
             <aside id="div_title" >
-                <div> 
-                    <H1> XOPAN </H1> 
-                    <p class='subtitle'> Registro Mexicano Comunitario de la Precipitación </p> 
-                    <p>
-Es un proyecto didáctico que involucra a los estudiantes para que midan la temperatura y precipitación pluvial (lluvia) en un área abierta de su escuela.
-Se instala un pluviómetro acumulador, de manera que los estudiantes pueden adquirir el hábito de tomar lecturas ocurridas durante el día y colaborar con un registro.
-                    </p>
-                </div>
 
+                    <H1> XOPAN </H1> 
+                    <p class='subtitle'> Aquí puedes ver las gráficas de los datos registrados </p> 
+        <div id="div_sel" > Plantel: 
+            <label > <select id="plantel">
+                <option disabled selected value> Selecciona </option>
+                <option value="icaycc"> ICAyCC </option>
+                <option value="ccho"> CCH Oriente </option>
+                <option value="cchs"> CCH Sur </option>
+                <option value="cchn"> CCH Naucalpan </option>
+                <option value="enp1"> ENP1 </option>
+                <option value="enp2"> ENP2 </option>
+                <option value="enp3"> ENP3 </option>
+                <option value="enp4"> ENP4 </option>
+                <option value="enp5"> ENP5 </option>
+                <option value="enp6"> ENP6 </option>
+                <option value="enp7"> ENP7 </option>
+                <option value="enp8"> ENP8 </option>
+                <option value="enp9"> ENP9 </option>
+            </select> </label>
+
+        </div>
             </aside>
 
-            <div id="div_img" >
-                <img class='img_main' src='img/pluvio_xopan.jpeg' alt='Pluviómetro XOPAN' >
-
-            </div>
+        <div id="div_plot">
         </div>
+
+        </div>
+
 
     </body>
   

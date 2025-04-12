@@ -1,7 +1,6 @@
 body{
     display: flex;
     flex-direction: column;
-    align-items: center;
     font-size: 24px;
     }
 
@@ -16,11 +15,11 @@ body{
 
 /* upload div */
 #div_upload{
-display: flex;
-flex-direction: column;
-align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-#div_btn_upload{
+    #div_btn_upload{
 	align-self: flex-start;
 }
 
@@ -36,7 +35,7 @@ align-items: center;
 }
 
 #plantel{
-	font-size: 24px;
+	/*font-size: 24px;*/
 	margin: 16px;
 	border-style:hidden;
 	background-color:lightblue;
@@ -51,6 +50,55 @@ input[type="button"]{
     margin: 5px;
 }
 
-h1{
-	font-size: 4vw;
+#div_main{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0px;
 }
+
+#div_img{
+    width: 50%;
+}
+
+h1{
+	/*font-size: 4vw;*/
+}
+
+p{
+    font-size: 0.7em;
+}
+
+.subtitle{
+    font-size: 0.85em;
+}
+
+ul.hmenu{
+    list-style-type:none;
+    background-color: #025159;
+    margin: 0;
+    padding: 0;
+}
+
+li.hmenu{
+    float: left;
+}
+li.hmenu a:hover {
+  background-color: #038C8C;
+}
+
+a.hmenu{
+    color: white;
+    text-decoration: none;
+    background-color: #025159;
+    padding: 5px 5px;
+    text-align: center;
+    font-size: 0.65em;
+}
+
+nav{
+    background-color: #025159;
+    padding: 5px 5px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
