@@ -1,55 +1,45 @@
 <!DOCTYPE html>
 <html lang='es'>
     <head>
+        <link href="style/NotoSans-Regular.ttf" rel="stylesheet">
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="stylesheet" href="estilos.css" />
+        <link rel="stylesheet" href="style/estilos.css" />
         <script src="lib/echarts.min.js" > </script>
         <script defer src="lib/plot.js"></script>
-        <script defer src="script.js"></script>
+        <script defer src="lib/script.js"></script>
 
-        <title> Xopan </title>
+        <title> Bitácora</title>
     </head>
   
-    <body>
-        <div id="div_header">
-            <img class='logo' src='img/logo_icaycc.png' alt='Logo ICAyCC' >
-            <img class='logo' src='img/logo_pembu2.png' alt='Logo PEMBU' >
-        </div>
-        <nav class="menu">
-          <ul class="hmenu">
-            <li class="hmenu"> <a class='hmenu' href="index.html"> XOPAN </a> </li>
-            <li class="hmenu"> <a class='hmenu' href="registra.html"> Registra</a> </li>
-            <li class="hmenu"> <a class='hmenu' href="grafs.html"> Gráficas </a> </li>
-            <li class="hmenu"> <a class='hmenu' href="precipita.html"> Precipitación</a> </li>
-          </ul>
-        </nav>
+    <body><div id='div_body'>
+
+        <object type="text/html" data="pages/header.html"></object>
 
         <div id='div_main' >
-            <aside id="div_title" >
+            <aside id="div_text" class="mainc" >
 
-                    <H1> XOPAN </H1> 
-                    <p class='subtitle'> Aquí puedes ver las gráficas de los datos registrados </p> 
-        <div id="div_sel" > Plantel: 
-            <label > <select id="plantel">
-                <option disabled selected value> Selecciona </option>
-                <option value="icaycc"> ICAyCC </option>
-                <option value="ccho"> CCH Oriente </option>
-                <option value="cchs"> CCH Sur </option>
-                <option value="cchn"> CCH Naucalpan </option>
-                <option value="enp1"> ENP1 </option>
-                <option value="enp2"> ENP2 </option>
-                <option value="enp3"> ENP3 </option>
-                <option value="enp4"> ENP4 </option>
-                <option value="enp5"> ENP5 </option>
-                <option value="enp6"> ENP6 </option>
-                <option value="enp7"> ENP7 </option>
-                <option value="enp8"> ENP8 </option>
-                <option value="enp9"> ENP9 </option>
-            </select> </label>
+                <p class='subtitle'> Aquí puedes ver las gráficas de los datos registrados </p> 
+                <div id="div_sel" > Plantel: 
+                    <label > <select id="plantel">
+                        <option disabled selected value> Selecciona </option>
+                        <option value="icaycc"> ICAyCC </option>
+                        <option value="ccho"> CCH Oriente </option>
+                        <option value="cchs"> CCH Sur </option>
+                        <option value="cchn"> CCH Naucalpan </option>
+                        <option value="enp1"> ENP1 </option>
+                        <option value="enp2"> ENP2 </option>
+                        <option value="enp3"> ENP3 </option>
+                        <option value="enp4"> ENP4 </option>
+                        <option value="enp5"> ENP5 </option>
+                        <option value="enp6"> ENP6 </option>
+                        <option value="enp7"> ENP7 </option>
+                        <option value="enp8"> ENP8 </option>
+                        <option value="enp9"> ENP9 </option>
+                    </select> </label>
 
-        </div>
+                </div>
             </aside>
 
         <div id="div_plot">
@@ -58,6 +48,6 @@
         </div>
 
 
-    </body>
+        </div></body>
   
 </html>

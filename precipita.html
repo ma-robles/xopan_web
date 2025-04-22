@@ -1,33 +1,24 @@
 <!DOCTYPE html>
 <html lang='es'>
     <head>
+        <link href="style/NotoSans-Regular.ttf" rel="stylesheet">
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="stylesheet" href="estilos.css" />
+        <link rel="stylesheet" href="style/estilos.css" />
         <script src="lib/echarts.min.js" > </script>
         <script defer src="lib/plot.js"></script>
-        <script defer src="script.js"></script>
+        <script defer src="lib/script.js"></script>
 
         <title> Xopan </title>
     </head>
   
-    <body>
-        <div id="div_header">
-            <img class='logo' src='img/logo_icaycc.png' alt='Logo ICAyCC' >
-            <img class='logo' src='img/logo_pembu2.png' alt='Logo PEMBU' >
-        </div>
-        <nav class="menu">
-          <ul class="hmenu">
-            <li class="hmenu"> <a class='hmenu' href="index.html"> XOPAN </a> </li>
-            <li class="hmenu"> <a class='hmenu' href="registra.html"> Registra</a> </li>
-            <li class="hmenu"> <a class='hmenu' href="grafs.html"> Gráficas </a> </li>
-            <li class="hmenu"> <a class='hmenu' href="precipita.html"> Precipitación</a> </li>
-          </ul>
-        </nav>
+    <body><div id='div_body'>
+
+        <object type="text/html" data="pages/header.html"></object>
 
         <div id='div_main' >
-            <aside id="div_title" >
+            <aside id="div_text" class='mainc'>
                 <div> 
                     <H1>  Pluviómetro </H1> 
 
@@ -42,6 +33,9 @@ lluvia recolectada. En el caso de que llueva mucho el agua se derrame de la prob
 medido y se rellena con aquella que aún queda fuera de la probeta cuantas veces sea necesario. La medida
 final corresponde a la suma de las parciales.
                     </p>
+
+                </div>
+
             <div id="div_img" >
                 <img class='img_main' src='img/pluvio_xopan.jpeg' alt='Pluviómetro XOPAN' >
 
@@ -91,13 +85,10 @@ con los aerosoles presentes cuando se forman. Es difícil que se presenten, al n
 debajo de los 30°.
 
                     </p>
+            </aside>
                 </div>
 
-            </aside>
 
-        </div>
-
-
-    </body>
+        </div></body>
   
 </html>

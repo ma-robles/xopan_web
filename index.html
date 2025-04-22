@@ -1,50 +1,38 @@
 <!DOCTYPE html>
 <html lang='es'>
     <head>
+        <link href="style/NotoSans-Regular.ttf" rel="stylesheet">
         <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <link rel="stylesheet" href="estilos.css" />
+        <link rel="stylesheet" href="style/estilos.css" />
         <script src="lib/echarts.min.js" > </script>
         <script defer src="lib/plot.js"></script>
-        <script defer src="script.js"></script>
+        <script defer src="lib/script.js"></script>
 
         <title> Xopan </title>
     </head>
   
-    <body>
-        <div id="div_header">
-            <img class='logo' src='img/logo_icaycc.png' alt='Logo ICAyCC' >
-            <img class='logo' src='img/logo_pembu2.png' alt='Logo PEMBU' >
-        </div>
-        <nav class="menu">
-          <ul class="hmenu">
-            <li class="hmenu"> <a class='hmenu' href="index.html"> XOPAN </a> </li>
-            <li class="hmenu"> <a class='hmenu' href="registra.html"> Registra</a> </li>
-            <li class="hmenu"> <a class='hmenu' href="grafs.html"> Gráficas </a> </li>
-            <li class="hmenu"> <a class='hmenu' href="precipita.html"> Precipitación</a> </li>
-          </ul>
-        </nav>
+    <body><div id='div_body'>
+        <object type="text/html" data="pages/header.html"></object>
 
         <div id='div_main' >
-            <aside id="div_title" >
+            <aside id="div_text" class='mainc' >
                 <div> 
-                    <H1> XOPAN </H1> 
-                    <p class='subtitle'> Registro Mexicano Comunitario de la Precipitación </p> 
-                    <p>
-Es un proyecto didáctico que involucra a los estudiantes para que midan la temperatura y precipitación pluvial (lluvia) en un área abierta de su escuela.
-Se instala un pluviómetro acumulador, de manera que los estudiantes pueden adquirir el hábito de tomar lecturas ocurridas durante el día y colaborar con un registro.
+                    <p> 
+                Es un proyecto didáctico que involucra a los estudiantes para que midan la temperatura y precipitación pluvial (lluvia) en un área abierta de su escuela.
+Se instala un pluviómetro acumulador, de manera que los estudiantes pueden adquirir el hábito de tomar lecturas ocurridas durante el día y colaborar con un registro. 
                     </p>
                 </div>
 
             </aside>
 
-            <div id="div_img" >
+            <div id="div_img" class='mainc' >
                 <img class='img_main' src='img/pluvio_xopan.jpeg' alt='Pluviómetro XOPAN' >
-
             </div>
+
         </div>
 
-    </body>
+        </div></body>
   
 </html>

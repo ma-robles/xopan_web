@@ -1,0 +1,165 @@
+html{
+    font-family: "Noto Sans", sans-serif;
+    font-size: 16px;
+    }
+body{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0;
+    }
+
+#div_body{
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px; 
+    background-color: rgba(55, 55, 55, 0.5);
+    background-image: url('../img/fondo_gotas.png');
+    background-attachment: fixed;
+    background-size: 100%;
+    padding: 5px;
+}
+
+
+#div_header{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    align-items: flex-start;
+    width: 100%;
+}
+#colh1{
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    width: 25%;
+    background-color: rgba(255, 255, 255, 0.75);
+    padding: 4px 3px;
+    border-radius: 15% / 40%;
+}
+#colh2{
+    width: 100%;
+}
+
+/* div sel  */
+
+#div_sel{
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    width: 400px;
+    }
+    
+
+/* upload div */
+#div_upload{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+#div_btn_upload{
+	align-self: flex-start;
+}
+
+/*plot div */
+#div_plot{
+  width: 100%;
+  height: 400px;
+}
+
+/*logos */
+#logo-ica   {
+    width:  250px;
+    max-width: 70%; 
+}
+#logo {
+    width:  75px;
+    max-width: 20%; 
+}
+
+#plantel{
+	/*font-size: 24px;*/
+	margin: 16px;
+	border-style:hidden;
+	background-color:lightblue;
+}
+
+/*botones */
+input[type="button"]{
+    font-size: 16px;
+    background-color: inherit;
+    color: darkblue;
+    border-style: hidden;
+    margin: 5px;
+}
+
+#div_main{
+    background-color: rgba(255, 255, 255, 0.75);
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 10px 0px;
+    flex-wrap: wrap;
+}
+
+.mainc{
+   width: 100%;
+   max-width: calc(100% - 20px); 
+}
+
+#div_img{
+}
+
+.img_main{
+    width: 100%;
+}
+
+h1{
+	/*font-size: 4vw;*/
+}
+
+p{
+    font-size: 1.0em;
+}
+
+.titleh{
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.subtitleh{
+    margin: 0;
+    font-size: 1.2em;
+}
+
+ul.hmenu{
+    list-style-type:none;
+    background-color: #025159;
+    margin: 0;
+    padding: 0;
+}
+
+li.hmenu{
+    float: left;
+}
+li.hmenu a:hover {
+  background-color: #038C8C;
+}
+
+a.hmenu{
+    color: white;
+    text-decoration: none;
+    background-color: #025159;
+    padding: 5px 5px;
+    text-align: center;
+    font-size: 1.0em;
+}
+
+nav{
+    background-color: #025159;
+    padding: 5px 5px;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+}
+
