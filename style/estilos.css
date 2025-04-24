@@ -23,19 +23,19 @@ body{
 
 #div_header{
     display: flex;
-    flex-direction: row;
-    padding: 5px;
+    flex-direction: column;
+    padding: 10px;
     align-items: flex-start;
     width: 100%;
 }
-#colh1{
+#logos{
     position: absolute;
-    top: 20px;
+    top: 2px;
     right: 15px;
-    width: 25%;
+    width: 45%;
     background-color: rgba(255, 255, 255, 0.75);
     padding: 4px 3px;
-    border-radius: 15% / 40%;
+    border-radius: 10% / 40%;
 }
 #colh2{
     width: 100%;
@@ -69,7 +69,7 @@ body{
 
 /*logos */
 #logo-ica   {
-    width:  250px;
+    width:  350px;
     max-width: 70%; 
 }
 #logo {
