@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="style/estilos.css" />
         <script defer src="lib/upload.js"></script>
 
-        <title> Xopan </title>
+        <title> Bitácora - XOPAN</title>
     </head>
   
     <body><div id='div_body'>
@@ -19,18 +19,25 @@
             <aside id="div_text" class='mainc'>
                 <div> 
                     <H1> Bitácora</H1> 
-                    <p class='subtitle'> Aquí puedes registrar tus datos  </p> 
-                        <form id='form_upload' class='' action="https://ruoa.unam.mx:8040/xopan_api" method="post">
-                            <div id="div_upload">
-                                <label> Fecha: <input id='datetime' name='datetime' type='datetime-local' required >
-                                </label>
-                                <label > ID: <input name='uid' required type='text' size=8 required >
-                                </label>
-                                <label> precipitación: <input name='rain' required type='number' step='0.01' value='0.0'>
-                                </label>
-                                <input class='boton' type="button" id ="btn_send" value='enviar' >
-                              </div>
-                        </form>
+                    <p> 
+                    Una bitácora es una forma de hacer un registro manual de datos.
+                    A principios del siglo XX, esta era la manera de llevar el registro de precipitación.
+                    Ahora, en esta época en la que usamos dispositivos digitales en la vida diaria, lo puedes hacer de manera digital, pero también lo puedes hacer en papel.
+                    </p>
+
+                    <p class='subtitle'> Aquí tienes una bitácora digital en la que puedes registrar tus datos en la memoria de tu dispositivo  </p> 
+                    <table id='tab' >
+                        <thead>
+                            <tr>
+                                <th scope="col"> Fecha <br> [UTC0] </th>
+                                <th scope="col"> Precipitación<br> [mm]</th>
+                                <th scope="col"> </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
+
                 </div>
 
             </aside>
