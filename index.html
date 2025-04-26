@@ -2,16 +2,34 @@
 <html lang='es'>
 
     <head>
-        <link href="style/NotoSans-Regular.ttf" rel="stylesheet">
         <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style/estilos.css" />
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0" />
+
+        <link href="style/NotoSans-Regular.ttf" rel="stylesheet">
+        <link rel="stylesheet" href="style/header.css" />
+        >
         <title> Xopan </title>
+        <div id="div_header">
+                <p class= 'titleh' > XOPAN </p> 
+                <p class= "subtitleh" > Registro Mexicano Comunitario de la Precipitación </p> 
+                <div id ="logos" >
+                    <img id='logo-ica' src='img/logo_icaycc.png' alt='Logo ICAyCC' >
+                    <img id='logo' src='img/logo_pembu2.png' alt='Logo PEMBU' >
+                </div>
+        </div>
     </head>
-  
     <body>
-       
-        <object type="text/html" data="pages/header.html"></object>
+        <div class='sep' >
+        </div>
+        <nav class="menu">
+          <ul class="hmenu">
+            <li class="hmenu"> <a target="_top" class='hmenu' href="../index.html"> Inicio </a> </li>
+            <li class="hmenu"> <a target="_top" class='hmenu' href="../registra.html"> Bitácora</a> </li>
+            <li class="hmenu"> <a target="_top" class='hmenu' href="../grafs.html"> Gráfica </a> </li>
+            <li class="hmenu"> <a target="_top" class='hmenu' href="../xopan.html"> Acerca de </a> </li>
+          </ul>
+        </nav>
+  
 
         <div id='div_xopan' class= 'mainc' >
             <div> 
@@ -23,29 +41,10 @@ Para esto, en cada uno de los planteles del bachillerato universitario se instal
 
         </div>
 
-        <div id='div_body'>
+        <iframe
+                src = "pages/artics.html" >
+        </iframe>
 
-
-        <div class='mainc'>
-            <H1>  Pluviómetro </H1> 
-            <p>
-El pluviómetro es un recipiente cilíndrico fabricado de acrílico transparente, abierto en la parte de
-arriba. En la abertura superior se coloca un embudo que conduce las gotas de lluvia que caen en él una probeta
-colocada en la parte inferior de este embudo.
-            </p>
-        </div>
-
-        <div class='mainc'>
-            <h1> Tipos de precipitación </h1>
-            <h2> Llovizna </h2>
-            <p>
-Precipitación acuosa constituida por gotitas de diámetro inferior a 0.5mm cayendo a menos de 3 m/s. Debido a
-su poco peso es lenta, rara vez en sentido totalmente vertical sino que tiene una fuerte componente horizontal
-y, a veces, se traslada grandes distancias horizontalmente.
-            </p>
-        </div>
-
-        </div>
     </body>
   
 </html>
