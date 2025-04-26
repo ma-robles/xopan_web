@@ -1,43 +1,27 @@
 html{
     font-family: "Noto Sans", sans-serif;
     font-size: 16px;
+    background-color: rgba(55, 55, 55, 0.5);
     }
+
 body{
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
     margin: 0;
+    flex-direction: column;
+    background-image: url('../img/fondo_gotas.png');
+    background-attachment: fixed;
+    background-size: 100%;
     }
 
 #div_body{
     display: flex;
     flex-direction: column;
     max-width: 1200px; 
-    background-color: rgba(55, 55, 55, 0.5);
-    background-image: url('../img/fondo_gotas.png');
-    background-attachment: fixed;
-    background-size: 100%;
     padding: 5px;
     gap: 20px;
+    align-items: center;
 }
 
-
-#div_header{
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-    align-items: flex-start;
-    width: 100%;
-}
-#logos{
-    position: absolute;
-    top: 2px;
-    right: 15px;
-    width: 45%;
-    background-color: rgba(255, 255, 255, 0.75);
-    padding: 4px 3px;
-    border-radius: 10% / 40%;
-}
 #colh2{
     width: 100%;
 }
@@ -68,16 +52,6 @@ body{
   height: 400px;
 }
 
-/*logos */
-#logo-ica   {
-    width:  350px;
-    max-width: 70%; 
-}
-#logo {
-    width:  75px;
-    max-width: 20%; 
-}
-
 #plantel{
 	/*font-size: 24px;*/
 	margin: 16px;
@@ -101,13 +75,13 @@ input[type="button"]{
     flex-direction: column;
     padding: 10px 0px;
     flex-wrap: wrap;
-    width: 100%;
     max-width: calc(100% - 20px); 
     border-radius: 10px;
-    padding: 10px;
 }
 
-#div_img{
+#div_xopan{
+    border-radius: 0px;
+    background-color: rgba(255, 255, 255, 0.95);
 }
 
 .img_main{
@@ -132,44 +106,3 @@ p{
 .inrain{
     width: 5em;
 }
-.titleh{
-    margin: 0;
-    font-size: 2.5em;
-}
-
-.subtitleh{
-    margin: 0;
-    font-size: 1.2em;
-}
-
-ul.hmenu{
-    list-style-type:none;
-    background-color: #025159;
-    margin: 0;
-    padding: 0;
-}
-
-li.hmenu{
-    float: left;
-}
-li.hmenu a:hover {
-  background-color: #038C8C;
-}
-
-a.hmenu{
-    color: white;
-    text-decoration: none;
-    background-color: #025159;
-    padding: 5px 5px;
-    text-align: center;
-    font-size: 1.0em;
-}
-
-nav{
-    background-color: #025159;
-    padding: 5px 5px;
-    display: flex;
-    flex-direction: row-reverse;
-    width: 100%;
-}
-
